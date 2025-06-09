@@ -25,35 +25,22 @@ Displays the annotated video feed to a window and allows the user to quit by pre
 
 How it works:
 Initializes the YOLOv8 object detection model (yolov8s.pt) and TTS engine.
-
 Captures frames from the webcam.
-
 Enhances the image contrast for better visibility in low-light.
-
 Detects objects in the frame using YOLOv8.
-
 For each detected object:
-
 If the object belongs to the allowed classes, it is spoken aloud using TTS.
-
 Previously announced objects are temporarily ignored for a short time (reset interval).
-
 Displays the annotated frame in a window.
-
 Runs continuously until the user presses 'q'.
 
 Potential Use Cases:
 Assisting blind or visually impaired individuals in navigating indoor and outdoor environments.
-
 Helping users identify objects of interest in unfamiliar spaces.
-
 Prototype for wearable visual assistance devices (smart glasses, portable systems).
-
 Technologies Used:
+
 YOLOv8 (ultralytics package) — deep learning-based object detection.
-
 OpenCV (cv2) — video capture and frame processing.
-
 pyttsx3 — offline text-to-speech synthesis.
-
 Python 3.x — programming language.
