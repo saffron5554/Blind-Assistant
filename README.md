@@ -38,6 +38,7 @@ Potential Use Cases:
 Assisting blind or visually impaired individuals in navigating indoor and outdoor environments.
 Helping users identify objects of interest in unfamiliar spaces.
 Prototype for wearable visual assistance devices (smart glasses, portable systems).
+
 Technologies Used:
 
 YOLOv8 (ultralytics package) — deep learning-based object detection.
